@@ -1,5 +1,11 @@
 package com.bridgelabz.regex;
 
-public class UserRegistrationMain {
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
+public class UserRegistrationMain {
+	public static void main(String[] args) {
+		Validator validator = new Validator();
+		validator.firstName();
+	}
 }
